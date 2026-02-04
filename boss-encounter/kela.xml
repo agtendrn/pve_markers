@@ -8,7 +8,7 @@
                 <MarkerCategory name="location" DisplayName="Spawn Location"
                     iconFile="assets/general/dot.png" iconSize="0.5" color="#ee5252" alpha="0.5"
                     rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" />
-                <MarkerCategory name="skull" DisplayName="Spawn Location"
+                <MarkerCategory name="skull" DisplayName="Spawn Indicator"
                     iconFile="assets/skull/red.png" iconSize="0.75" alpha="0.5"
                     mapvisibility="0" minimapvisibility="0" />
                 <MarkerCategory name="hitbox" DisplayName="Spawn Hitbox"
