@@ -1,6 +1,6 @@
 # PvE Marker Pack
 
-Alex's Guild Wars 2 Marker Pack
+PvE Guild Wars 2 Marker Pack
 intended to be used with Blish HUD
 
 ___
