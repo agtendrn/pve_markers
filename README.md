@@ -45,12 +45,12 @@ ___
 
 ## Installation
 
-Download the [Latest Release](https://github.com/agtendrn/wing8_markers/releases/latest)
+Download the [Latest Release](https://github.com/agtendrn/pve_markers/releases/latest)
 
 Install [Blish HUD](https://blishhud.com/) and the [Pathing](https://blishhud.com/modules/?module=bh.community.pathing)
 Module
 
-Move the `wing8_markers.zip` file into the Blish HUD marker directory
+Move the `pve_markers.zip` file into the Blish HUD marker directory
 
 in Windows commonly under
 `.\Documents\Guild Wars 2\addons\blishhud\markers`
