@@ -1,0 +1,283 @@
+<OverlayData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../marker-schema.xsd">
+    <MarkerCategory name="kela" DisplayName="Kela" MapID="1609"
+        fadeNear="3000" fadeFar="3500">
+        <!-- Kela -->
+        <MarkerCategory name="boss" DisplayName="Boss">
+            <MarkerCategory name="spawn" DisplayName="Spawn">
+                <MarkerCategory name="location" DisplayName="Spawn Location"
+                    iconFile="assets/skull/red.png" iconSize="0.75" alpha="0.5"
+                    mapvisibility="0" minimapvisibility="0" />
+                <MarkerCategory name="hitbox" DisplayName="Spawn Hitbox"
+                    iconFile="assets/radius/640.png" iconSize="7.5" color="#ee5252" alpha="0.76"
+                    rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" />
+            </MarkerCategory>
+        </MarkerCategory>
+
+        <!-- Adds -->
+        <MarkerCategory name="croc" DisplayName="Crocodilian Razortooth" color="#00ffcc">
+            <MarkerCategory name="location" DisplayName="Location"
+                iconFile="assets/general/dot.png" iconSize="0.5"
+                rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0">
+                <!-- List -->
+                <MarkerCategory name="1" />
+                <MarkerCategory name="2" />
+                <MarkerCategory name="3" />
+                <MarkerCategory name="4" />
+                <MarkerCategory name="5" />
+                <MarkerCategory name="6" />
+                <MarkerCategory name="7" />
+                <MarkerCategory name="8" />
+                <MarkerCategory name="secondary" DisplayName="False Ones" color="#6eb2f7"
+                    defaulttoggle="0">
+                    <MarkerCategory name="9" />
+                    <MarkerCategory name="10" />
+                    <MarkerCategory name="11" />
+                    <MarkerCategory name="12" />
+                    <MarkerCategory name="13" />
+                    <MarkerCategory name="14" />
+                    <MarkerCategory name="15" />
+                    <MarkerCategory name="16" />
+                    <MarkerCategory name="17" />
+                    <MarkerCategory name="18" />
+                    <MarkerCategory name="19" />
+                    <MarkerCategory name="20" />
+                    <MarkerCategory name="21" />
+                    <MarkerCategory name="22" />
+                </MarkerCategory>
+            </MarkerCategory>
+            <MarkerCategory name="hitbox" DisplayName="Hitbox" iconFile="assets/radius/256.png"
+                iconSize="1.875" defaulttoggle="0"
+                rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" alpha="0.75">
+                <!-- List -->
+                <MarkerCategory name="1" />
+                <MarkerCategory name="2" />
+                <MarkerCategory name="3" />
+                <MarkerCategory name="4" />
+                <MarkerCategory name="5" />
+                <MarkerCategory name="6" />
+                <MarkerCategory name="7" />
+                <MarkerCategory name="8" />
+                <MarkerCategory name="secondary" DisplayName="False Ones" color="#6eb2f7"
+                    defaulttoggle="0">
+                    <MarkerCategory name="9" />
+                    <MarkerCategory name="10" />
+                    <MarkerCategory name="11" />
+                    <MarkerCategory name="12" />
+                    <MarkerCategory name="13" />
+                    <MarkerCategory name="14" />
+                    <MarkerCategory name="15" />
+                    <MarkerCategory name="16" />
+                    <MarkerCategory name="17" />
+                    <MarkerCategory name="18" />
+                    <MarkerCategory name="19" />
+                    <MarkerCategory name="20" />
+                    <MarkerCategory name="21" />
+                    <MarkerCategory name="22" />
+                </MarkerCategory>
+            </MarkerCategory>
+        </MarkerCategory>
+        <MarkerCategory name="exec" DisplayName="Executor of Waves" color="#ff8f33">
+            <MarkerCategory name="location" DisplayName="Location"
+                iconFile="assets/general/dot.png" iconSize="0.5"
+                rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0">
+                <!-- List -->
+                <MarkerCategory name="1" />
+                <MarkerCategory name="2" />
+                <MarkerCategory name="3" />
+                <MarkerCategory name="4" />
+                <MarkerCategory name="5" />
+                <MarkerCategory name="6" />
+                <MarkerCategory name="7" />
+                <MarkerCategory name="8" />
+                <MarkerCategory name="9" />
+                <MarkerCategory name="10" />
+            </MarkerCategory>
+            <MarkerCategory name="hitbox" DisplayName="Hitbox" iconFile="assets/radius/640.png"
+                iconSize="5"
+                rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" alpha="0.75">
+                <!-- List -->
+                <MarkerCategory name="1" />
+                <MarkerCategory name="2" />
+                <MarkerCategory name="3" />
+                <MarkerCategory name="4" />
+                <MarkerCategory name="5" />
+                <MarkerCategory name="6" />
+                <MarkerCategory name="7" />
+                <MarkerCategory name="8" />
+                <MarkerCategory name="9" />
+                <MarkerCategory name="10" />
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+    <POIs>
+        <!-- Kela -->
+        <!-- Spawn -->
+        <POI type="kela.boss.spawn.location" GUID="dOZntbe+nE2ssVp8h1YzfQ==" xpos="-520.1488"
+            ypos="43.2604" zpos="336.2528" />
+        <POI type="kela.boss.spawn.hitbox" GUID="dOZntbe+nE2ssVp8h1YzfQ==" xpos="-520.1488"
+            ypos="43.2604" zpos="336.2528" />
+
+        <!-- Crocodile List -->
+        <POI type="kela.croc.location.1" GUID="S5AvQ1zBLU6IOPHcbgfc0w=="
+            xpos="-539.6940" ypos="43.2128" zpos="330.3015" />
+        <POI type="kela.croc.hitbox.1" GUID="aa5MtwbGXE+9TZ2LeRJANA=="
+            xpos="-539.6940" ypos="43.2128" zpos="330.3015" />
+
+        <POI type="kela.croc.location.2" GUID="AM59lcgFGkC6r4WwFoLnZQ=="
+            xpos="-521.6067" ypos="43.2518" zpos="329.8774" />
+        <POI type="kela.croc.hitbox.2" GUID="bq3+kiY2zEGyzuFWoAHtyA=="
+            xpos="-521.6067" ypos="43.2518" zpos="329.8774" />
+
+        <POI type="kela.croc.location.3" GUID="ypJfnxoCmU+ylstp8Phe6g=="
+            xpos="-518.0024" ypos="43.2270" zpos="310.4032" />
+        <POI type="kela.croc.hitbox.3" GUID="qSEEdawf8Ua9YcuekO8OcQ=="
+            xpos="-518.0024" ypos="43.2270" zpos="310.4032" />
+
+        <POI type="kela.croc.location.4" GUID="EfFGYPgmCkiLh/Ac/nnC5w=="
+            xpos="-538.1726" ypos="43.2236" zpos="306.9818" />
+        <POI type="kela.croc.hitbox.4" GUID="DQhiKNsuakiDHbiWCQkDaw=="
+            xpos="-538.1726" ypos="43.2236" zpos="306.9818" />
+
+        <POI type="kela.croc.location.5" GUID="o0cm0qJt2E2OtrzqwQitew=="
+            xpos="-514.5912" ypos="43.2243" zpos="320.6546" />
+        <POI type="kela.croc.hitbox.5" GUID="I/CJygT3nEuTIGQWYQ8sYQ=="
+            xpos="-514.5912" ypos="43.2243" zpos="320.6546" />
+
+        <POI type="kela.croc.location.6" GUID="pgiJMcq14U6ZYA+oVXJLoQ=="
+            xpos="-544.9442" ypos="43.1977" zpos="318.0232" />
+        <POI type="kela.croc.hitbox.6" GUID="gyoiHTq30ke15B+FFXeL9w=="
+            xpos="-544.9442" ypos="43.1977" zpos="318.0232" />
+
+        <POI type="kela.croc.location.7" GUID="gdJz+jmf60GIELcigjKAsw=="
+            xpos="-530.0319" ypos="43.2518" zpos="333.8652" />
+        <POI type="kela.croc.hitbox.7" GUID="A5XMT+pxVkG+ovk6qOjQcA=="
+            xpos="-530.0319" ypos="43.2518" zpos="333.8652" />
+
+        <POI type="kela.croc.location.8" GUID="89a/rhiV0kmVeOr0LddQNg=="
+            xpos="-528.3326" ypos="43.2235" zpos="304.7949" />
+        <POI type="kela.croc.hitbox.8" GUID="URe+LXrIQkqFnzKPgGY5/Q=="
+            xpos="-528.3326" ypos="43.2235" zpos="304.7949" />
+
+        <POI type="kela.croc.location.secondary.9" GUID="kRnBbT88oUy5pudOXzu5cw=="
+            xpos="-521.6644" ypos="43.2662" zpos="340.5837" />
+        <POI type="kela.croc.hitbox.secondary.9" GUID="3P5Ysxpukk6xCQrhPWNx+A=="
+            xpos="-521.6644" ypos="43.2662" zpos="340.5837" />
+
+        <POI type="kela.croc.location.secondary.10" GUID="nY8+cPmbiUiMcB0Js2rksg=="
+            xpos="-535.9272" ypos="43.1730" zpos="313.5117" />
+        <POI type="kela.croc.hitbox.secondary.10" GUID="96tO8x5EEE2fpRJrPxdl3w=="
+            xpos="-535.9272" ypos="43.1730" zpos="313.5117" />
+
+        <POI type="kela.croc.location.secondary.11" GUID="iLl6XP/0qESPDT5MCsKqvQ=="
+            xpos="-521.8666" ypos="43.2662" zpos="340.7263" />
+        <POI type="kela.croc.hitbox.secondary.11" GUID="QASXK7yXPEi06gG2/kB0kA=="
+            xpos="-521.8666" ypos="43.2662" zpos="340.7263" />
+
+        <POI type="kela.croc.location.secondary.12" GUID="KAdO4Qn0gke35XpLsgOD1w=="
+            xpos="-532.4209" ypos="43.1923" zpos="313.2708" />
+        <POI type="kela.croc.hitbox.secondary.12" GUID="psFfBRNGrkO1yjty9pWKsQ=="
+            xpos="-532.4209" ypos="43.1923" zpos="313.2708" />
+
+        <POI type="kela.croc.location.secondary.13" GUID="6ZRXJw2KxEyFs+8PH4spYw=="
+            xpos="-533.3768" ypos="43.1705" zpos="315.3661" />
+        <POI type="kela.croc.hitbox.secondary.13" GUID="itNmmBSJZESi2M1FZLh6Ig=="
+            xpos="-533.3768" ypos="43.1705" zpos="315.3661" />
+
+        <POI type="kela.croc.location.secondary.14" GUID="x3EPmIXxDEKAXjpA+nkxfA=="
+            xpos="-544.5613" ypos="43.1977" zpos="316.1849" />
+        <POI type="kela.croc.hitbox.secondary.14" GUID="KOnGLfhQyUGEO/jweDgOQw=="
+            xpos="-544.5613" ypos="43.1977" zpos="316.1849" />
+
+        <POI type="kela.croc.location.secondary.15" GUID="exGl08y0502FafcbW4A8RA=="
+            xpos="-539.4787" ypos="43.1490" zpos="314.3293" />
+        <POI type="kela.croc.hitbox.secondary.15" GUID="VyEysD1pdky1dJ6AjQd4gg=="
+            xpos="-539.4787" ypos="43.1490" zpos="314.3293" />
+
+        <POI type="kela.croc.location.secondary.16" GUID="c5F2niKx/EKxpAJCPrzXRg=="
+            xpos="-542.4644" ypos="43.2101" zpos="313.0448" />
+        <POI type="kela.croc.hitbox.secondary.16" GUID="DmYwTeBFyUWxE37JfmobCA=="
+            xpos="-542.4644" ypos="43.2101" zpos="313.0448" />
+
+        <POI type="kela.croc.location.secondary.17" GUID="ECeuiSAP+0uukrLq8JDNgg=="
+            xpos="-515.8423" ypos="43.2422" zpos="326.3693" />
+        <POI type="kela.croc.hitbox.secondary.17" GUID="WXMvxN2jWk2cL+B7llZvSg=="
+            xpos="-515.8423" ypos="43.2422" zpos="326.3693" />
+
+        <POI type="kela.croc.location.secondary.18" GUID="aig9NqDT40+aJeqc5DfkYA=="
+            xpos="-531.5242" ypos="43.2235" zpos="303.4953" />
+        <POI type="kela.croc.hitbox.secondary.18" GUID="unPXJlxiJEudCfMfHaeZIQ=="
+            xpos="-531.5242" ypos="43.2235" zpos="303.4953" />
+
+        <POI type="kela.croc.location.secondary.19" GUID="40xfXgMtzki3lr+Fsg6HKA=="
+            xpos="-517.2352" ypos="43.2410" zpos="324.7873" />
+        <POI type="kela.croc.hitbox.secondary.19" GUID="jVaNEkgpVUuor3xff9yoXQ=="
+            xpos="-517.2352" ypos="43.2410" zpos="324.7873" />
+
+        <POI type="kela.croc.location.secondary.20" GUID="pAEHFuhVx0evsRrb8ZyDxQ=="
+            xpos="-552.3639" ypos="43.2235" zpos="316.7989" />
+        <POI type="kela.croc.hitbox.secondary.20" GUID="UUau6fEMQE63uhujmgRDOw=="
+            xpos="-552.3639" ypos="43.2235" zpos="316.7989" />
+
+        <POI type="kela.croc.location.secondary.21" GUID="PLQw7albkUecJIhJq9xkgA=="
+            xpos="-512.6128" ypos="43.2267" zpos="323.7608" />
+        <POI type="kela.croc.hitbox.secondary.21" GUID="Yoc5jUVtcUCjHYdUjRI4DQ=="
+            xpos="-512.6128" ypos="43.2267" zpos="323.7608" />
+
+        <POI type="kela.croc.location.secondary.21" GUID="95Q1VR52HESU2y5CuBQxYg=="
+            xpos="-509.0672" ypos="43.1959" zpos="319.7703" />
+        <POI type="kela.croc.hitbox.secondary.21" GUID="BN82sbagWkC3hZ8CueNKng=="
+            xpos="-509.0672" ypos="43.1959" zpos="319.7703" />
+
+        <!-- Executor List -->
+        <POI type="kela.exec.location.1" GUID="ulGUrr4pgUW8Ck0AZ8g/tQ=="
+            xpos="-539.2597" ypos="43.2348" zpos="343.0244" />
+        <POI type="kela.exec.hitbox.1" GUID="HTC2e/pTgkyb7cLQyZmMYw=="
+            xpos="-539.2597" ypos="43.2348" zpos="343.0244" />
+
+        <POI type="kela.exec.location.2" GUID="8ODfmXN4qE24V2wNHbQM3w=="
+            xpos="-549.2266" ypos="43.2235" zpos="313.1667" />
+        <POI type="kela.exec.hitbox.2" GUID="22MWN3lxd0SOeSBtz2yYGA=="
+            xpos="-549.2266" ypos="43.2235" zpos="313.1667" />
+
+        <POI type="kela.exec.location.3" GUID="4Hu3VcVOYkm+0FzcPJ2JUA=="
+            xpos="-504.0731" ypos="43.2235" zpos="306.1106" />
+        <POI type="kela.exec.hitbox.3" GUID="XY87Cdqxz0uldm8aJv+ZlA=="
+            xpos="-504.0731" ypos="43.2235" zpos="306.1106" />
+
+        <POI type="kela.exec.location.4" GUID="NyHCEbUsHESfX+9stM9pVw=="
+            xpos="-524.7817" ypos="43.2052" zpos="313.5655" />
+        <POI type="kela.exec.hitbox.4" GUID="D/BgFzo+lEeyJXxOAPnR3w=="
+            xpos="-524.7817" ypos="43.2052" zpos="313.5655" />
+
+        <POI type="kela.exec.location.5" GUID="xvIm3BNB40Sm8oSUQzINSQ=="
+            xpos="-530.9805" ypos="43.2235" zpos="290.1051" />
+        <POI type="kela.exec.hitbox.5" GUID="FyAMdzFt5UWjmbq6poh7iA=="
+            xpos="-530.9805" ypos="43.2235" zpos="290.1051" />
+
+        <POI type="kela.exec.location.6" GUID="oYy7qhIS4k+8qvTuQrBspA=="
+            xpos="-555.6198" ypos="43.2235" zpos="359.0391" />
+        <POI type="kela.exec.hitbox.6" GUID="wK5uE0VC+0WQY8gZ7N/gRA=="
+            xpos="-555.6198" ypos="43.2235" zpos="359.0391" />
+
+        <POI type="kela.exec.location.7" GUID="7KNCh1PCbkCh87LGoG4lqg=="
+            xpos="-547.3013" ypos="43.2235" zpos="292.5851" />
+        <POI type="kela.exec.hitbox.7" GUID="KAy5xMChFUedjT0/WNgEtA=="
+            xpos="-547.3013" ypos="43.2235" zpos="292.5851" />
+
+        <POI type="kela.exec.location.8" GUID="EYLLYNs/jEuFoUYu7jiDIg=="
+            xpos="-566.8365" ypos="43.2235" zpos="313.1007" />
+        <POI type="kela.exec.hitbox.8" GUID="fYMar6ejmUqbPzisXb/MYw=="
+            xpos="-566.8365" ypos="43.2235" zpos="313.1007" />
+
+        <POI type="kela.exec.location.9" GUID="9tZ4y8qup06FrI8rEgCl8w=="
+            xpos="-565.1067" ypos="43.2235" zpos="334.1573" />
+        <POI type="kela.exec.hitbox.9" GUID="QNu9ySvFmkes447RdXWrpg=="
+            xpos="-565.1067" ypos="43.2235" zpos="334.1573" />
+
+        <POI type="kela.exec.location.10" GUID="qAcO939nmUqh0rsleXvAqg=="
+            xpos="-511.3298" ypos="43.2558" zpos="331.0788" />
+        <POI type="kela.exec.hitbox.10" GUID="n+n8E9D7mEOaSKUwfRzohw=="
+            xpos="-511.3298" ypos="43.2558" zpos="331.0788" />
+    </POIs>
+</OverlayData>
