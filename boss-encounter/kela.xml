@@ -6,6 +6,9 @@
         <MarkerCategory name="boss" DisplayName="Boss">
             <MarkerCategory name="spawn" DisplayName="Spawn">
                 <MarkerCategory name="location" DisplayName="Spawn Location"
+                    iconFile="assets/general/dot.png" iconSize="0.5" color="#ee5252" alpha="0.5"
+                    rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" />
+                <MarkerCategory name="skull" DisplayName="Spawn Location"
                     iconFile="assets/skull/red.png" iconSize="0.75" alpha="0.5"
                     mapvisibility="0" minimapvisibility="0" />
                 <MarkerCategory name="hitbox" DisplayName="Spawn Hitbox"
@@ -113,7 +116,9 @@
     <POIs>
         <!-- Kela -->
         <!-- Spawn -->
-        <POI type="kela.boss.spawn.location" GUID="dOZntbe+nE2ssVp8h1YzfQ==" xpos="-520.1488"
+        <POI type="kela.boss.spawn.location" GUID="2pyRPywAG02IASyLNFXSyQ==" xpos="-520.1488"
+            ypos="43.2604" zpos="336.2528" />
+        <POI type="kela.boss.spawn.skull" GUID="dOZntbe+nE2ssVp8h1YzfQ==" xpos="-520.1488"
             ypos="43.2604" zpos="336.2528" />
         <POI type="kela.boss.spawn.hitbox" GUID="dOZntbe+nE2ssVp8h1YzfQ==" xpos="-520.1488"
             ypos="43.2604" zpos="336.2528" />
