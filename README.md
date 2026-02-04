@@ -21,14 +21,13 @@ ___
 ### Ura
 
 - Toxic Geyser Locations
-    - Center Location
-    - Number
-    - Commander Marker
+  - Center Location
+  - Number
+  - Commander Marker
 - Titan Spawner
-    - Center Location
-    - Arrow on Top
-    - Titan Spawn Hitbox Radius
-
+  - Center Location
+  - Arrow on Top
+  - Titan Spawn Hitbox Radius
 
 ### Kela
 
