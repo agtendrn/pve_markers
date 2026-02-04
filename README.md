@@ -1,6 +1,6 @@
-# Wing 8 Marker Pack
+# PvE Marker Pack
 
-Guild Wars 2 Marker Pack
+Alex's Guild Wars 2 Marker Pack
 intended to be used with Blish HUD
 
 ___
@@ -28,6 +28,19 @@ ___
     - Center Location
     - Arrow on Top
     - Titan Spawn Hitbox Radius
+
+
+### Kela
+
+- Boss
+  - Spawn Location
+  - Spawn Hitbox
+- Cocodiles
+  - Spawn Locations
+  - Spawn Hitboxes
+- Executor
+  - Spawn Locations
+  - Spawn Hitboxes
 
 ___
 
