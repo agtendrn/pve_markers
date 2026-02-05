@@ -80,9 +80,9 @@
                 </MarkerCategory>
             </MarkerCategory>
         </MarkerCategory>
-        <MarkerCategory name="exec" DisplayName="Executor of Waves" color="#ff8f33">
+        <MarkerCategory name="exec" DisplayName="Executor of Waves" color="#c800ff">
             <MarkerCategory name="skull" DisplayName="Spawn Indicator"
-                iconFile="assets/skull/orange.png" iconSize="0.75" alpha="0.5"
+                iconFile="assets/skull/orange.png" iconSize="0.5" alpha="0.5"
                 mapvisibility="0" minimapvisibility="0" defaulttoggle="0">
                 <!-- List -->
                 <MarkerCategory name="1" />
