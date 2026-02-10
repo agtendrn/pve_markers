@@ -143,14 +143,11 @@
         <!-- Kela -->
         <!-- Spawn -->
         <POI type="pve_markers.encounter.kela.boss.spawn.location" GUID="2pyRPywAG02IASyLNFXSyQ=="
-            xpos="-520.1488"
-            ypos="43.2604" zpos="336.2528" />
+            xpos="-520.1488" ypos="43.2604" zpos="336.2528" />
         <POI type="pve_markers.encounter.kela.boss.spawn.skull" GUID="dOZntbe+nE2ssVp8h1YzfQ=="
-            xpos="-520.1488"
-            ypos="43.2604" zpos="336.2528" />
+            xpos="-520.1488" ypos="43.2604" zpos="336.2528" />
         <POI type="pve_markers.encounter.kela.boss.spawn.hitbox" GUID="dOZntbe+nE2ssVp8h1YzfQ=="
-            xpos="-520.1488"
-            ypos="43.2604" zpos="336.2528" />
+            xpos="-520.1488" ypos="43.2604" zpos="336.2528" />
 
         <!-- Crocodile List -->
         <POI type="pve_markers.encounter.kela.croc.location.1" GUID="S5AvQ1zBLU6IOPHcbgfc0w=="
