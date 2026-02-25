@@ -87,6 +87,11 @@
                               heightOffset="5" iconSize="1" defaulttoggle="0" miniMapVisibility="0"
                               color="#FF00FF" />
                     </MarkerCategory>
+
+                    <MarkerCategory name="safearea" DisplayName="Safe Area" alpha="0.5"
+                         color="#00DD00" animSpeed="0" texture="assets/lines/white-line2.png"
+                         trailScale="0.5"
+                         tip-description="Dropping sulfuric geysers outside the green areas will not interfere with toxic geysers." />
                </MarkerCategory>
           </MarkerCategory>
      </MarkerCategory>
@@ -255,5 +260,10 @@
           <POI type="pve_markers.wing8.ura.titan.float" xpos="128.8435" ypos="269.8603"
                zpos="234.4463"
                GUID="cinM4T6vAEm7s3wFLtdrbA==" />
+
+          <!-- Imported -->
+          <!-- Safe Area -->
+          <trail type="pve_markers.wing8.ura.safearea"
+               trailData="trails/wing-8/ura/safe_areas.trl" />
      </POIs>
 </OverlayData>
