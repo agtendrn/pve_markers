@@ -2,7 +2,7 @@
     xsi:noNamespaceSchemaLocation="../marker-schema.xsd">
     <MarkerCategory name="pve_markers" DisplayName="PvE Markers">
         <MarkerCategory name="encounter" DisplayName="Raid Encounter">
-            <MarkerCategory name="kela" DisplayName="Kela" MapID="1609"
+            <MarkerCategory name="kela" DisplayName="Kela" MapId="1609"
                 fadeNear="3000" fadeFar="3500">
                 <!-- Kela -->
                 <MarkerCategory name="boss" DisplayName="Boss">
@@ -10,22 +10,33 @@
                         <MarkerCategory name="location" DisplayName="Spawn Location"
                             iconFile="assets/general/dot.png" iconSize="0.5" color="#ee5252"
                             alpha="0.5"
-                            rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" />
+                            rotate="0" heightOffset="0" mapVisibility="0" miniMapVisibility="0" />
                         <MarkerCategory name="skull" DisplayName="Spawn Indicator"
                             iconFile="assets/skull/red.png" iconSize="0.75" alpha="0.5"
-                            mapvisibility="0" minimapvisibility="0" />
+                            mapVisibility="0" miniMapVisibility="0" />
                         <MarkerCategory name="hitbox" DisplayName="Spawn Hitbox"
                             iconFile="assets/radius/640.png" iconSize="7.5" color="#ee5252"
                             alpha="0.76"
-                            rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" />
+                            rotate="0" heightOffset="0" mapVisibility="0" miniMapVisibility="0" />
                     </MarkerCategory>
+                </MarkerCategory>
+
+                <!-- Waves -->
+                <MarkerCategory name="wave" DisplayName="Wave Boarders" fadeNear="4000"
+                    fadeFar="4100" alpha="0.45" animSpeed="0" trailScale="0.4" defaulttoggle="0">
+                    <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1"
+                        texture="assets/lines/white-line.png"
+                        tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
+                    <MarkerCategory name="wavetrigger2" DisplayName="Wave Trigger Area 2"
+                        texture="assets/lines/white-line.png"
+                        tip-description="Crossing this line with Kelas hitbox will cause waves in the center and north-west to spawn. No south-east waves." />
                 </MarkerCategory>
 
                 <!-- Adds -->
                 <MarkerCategory name="croc" DisplayName="Crocodilian Razortooth" color="#00ffcc">
                     <MarkerCategory name="location" DisplayName="Location"
                         iconFile="assets/general/dot.png" iconSize="0.5"
-                        rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0">
+                        rotate="0" heightOffset="0" mapVisibility="0" miniMapVisibility="0">
                         <!-- List -->
                         <MarkerCategory name="1" />
                         <MarkerCategory name="2" />
@@ -56,7 +67,7 @@
                     <MarkerCategory name="hitbox" DisplayName="Hitbox"
                         iconFile="assets/radius/256.png"
                         iconSize="1.875" defaulttoggle="0"
-                        rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0"
+                        rotate="0" heightOffset="0" mapVisibility="0" miniMapVisibility="0"
                         alpha="0.75">
                         <!-- List -->
                         <MarkerCategory name="1" />
@@ -89,7 +100,7 @@
                 <MarkerCategory name="exec" DisplayName="Executor of Waves" color="#c800ff">
                     <MarkerCategory name="skull" DisplayName="Spawn Indicator"
                         iconFile="assets/skull/orange.png" iconSize="0.5" alpha="0.5"
-                        mapvisibility="0" minimapvisibility="0" defaulttoggle="0">
+                        mapVisibility="0" miniMapVisibility="0" defaulttoggle="0">
                         <!-- List -->
                         <MarkerCategory name="1" />
                         <MarkerCategory name="2" />
@@ -104,7 +115,7 @@
                     </MarkerCategory>
                     <MarkerCategory name="location" DisplayName="Location"
                         iconFile="assets/general/dot.png" iconSize="0.5"
-                        rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0">
+                        rotate="0" heightOffset="0" mapVisibility="0" miniMapVisibility="0">
                         <!-- List -->
                         <MarkerCategory name="1" />
                         <MarkerCategory name="2" />
@@ -120,7 +131,7 @@
                     <MarkerCategory name="hitbox" DisplayName="Hitbox"
                         iconFile="assets/radius/640.png"
                         iconSize="5"
-                        rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0"
+                        rotate="0" heightOffset="0" mapVisibility="0" miniMapVisibility="0"
                         alpha="0.75">
                         <!-- List -->
                         <MarkerCategory name="1" />
@@ -358,5 +369,12 @@
             xpos="-511.3298" ypos="43.2558" zpos="331.0788" />
         <POI type="pve_markers.encounter.kela.exec.hitbox.10" GUID="n+n8E9D7mEOaSKUwfRzohw=="
             xpos="-511.3298" ypos="43.2558" zpos="331.0788" />
+
+        <!-- Imported -->
+        <!-- Wave Trails -->
+        <trail type="pve_markers.encounter.kela.wave.wavetrigger1"
+            trailData="trails/topmid.trl" />
+        <trail type="pve_markers.encounter.kela.wave.wavetrigger2"
+            trailData="trails/botmid.trl" />
     </POIs>
 </OverlayData>
