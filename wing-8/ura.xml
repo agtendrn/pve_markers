@@ -1,26 +1,24 @@
 <OverlayData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:noNamespaceSchemaLocation="../marker-schema.xsd">
      <MarkerCategory name="pve_markers" DisplayName="PvE Markers">
-          <MarkerCategory name="wing8" DisplayName="Wing 8" MapID="1564" fadeNear="5000"
+          <MarkerCategory name="wing8" DisplayName="Wing 8" MapId="1564" fadeNear="5000"
                fadeFar="5500">
                <MarkerCategory name="ura" DisplayName="Ura">
                     <MarkerCategory name="location" DisplayName="Location"
                          iconFile="assets/skull/red.png" iconSize="0.75" alpha="0.5" />
                     <MarkerCategory name="hitbox" DisplayName="Hitbox"
                          iconFile="assets/radius/1120.png" iconSize="12.5" color="#ee5252"
-                         alpha="0.6"
-                         rotate="0" heightoffset="0" mapvisibility="0" minimapvisibility="0" />
+                         alpha="0.6" rotate="0" heightOffset="0" mapVisibility="0"
+                         miniMapVisibility="0" />
 
                     <MarkerCategory name="toxic" DisplayName="Toxic Geyser Locations"
-                         mapvisibility="0">
+                         mapVisibility="0">
                          <MarkerCategory name="ground" DisplayName="Ground" color="#00ffcc"
-                              iconFile="assets/general/dot.png" alpha="0.75" minimapvisibility="0"
-                              heightoffset="0"
-                              iconSize="0.75" rotate="0" />
+                              iconFile="assets/general/dot.png" alpha="0.75" miniMapVisibility="0"
+                              heightOffset="0" iconSize="0.75" rotate="0" />
                          <MarkerCategory name="number" DisplayName="Number" color="#4473F5"
-                              alpha="0.75"
-                              heightoffset="1.5"
-                              iconSize="1.5" defaulttoggle="0" minimapvisibility="0">
+                              alpha="0.75" heightOffset="1.5" iconSize="1.5" defaulttoggle="0"
+                              miniMapVisibility="0">
                               <MarkerCategory name="1" DisplayName="1"
                                    iconFile="assets/numbers/1.png" />
                               <MarkerCategory name="2" DisplayName="2"
@@ -52,7 +50,7 @@
                          </MarkerCategory>
 
                          <MarkerCategory name="marker" DisplayName="Marker" alpha="0.75"
-                              heightoffset="3.5" iconSize="1" minimapvisibility="1"
+                              heightOffset="3.5" iconSize="1" miniMapVisibility="1"
                               defaulttoggle="0">
                               <MarkerCategory name="arrow" DisplayName="arrow"
                                    iconFile="assets/markers/arrow.png" />
@@ -74,19 +72,19 @@
                     </MarkerCategory>
 
                     <MarkerCategory name="titan" DisplayName="Titan Spawner Locations"
-                         mapvisibility="0">
+                         mapVisibility="0">
                          <MarkerCategory name="ground" DisplayName="Titan Spawner"
-                              iconFile="assets/skull/blue.png" alpha="0.75" heightoffset="0"
+                              iconFile="assets/skull/blue.png" alpha="0.75" heightOffset="0"
                               iconSize="1" rotate="0" />
 
                          <MarkerCategory name="hb" DisplayName="Hitbox" color="#FF00FF"
-                              iconFile="assets/radius/256.png" minimapvisibility="0"
-                              heightoffset="0"
+                              iconFile="assets/radius/256.png" miniMapVisibility="0"
+                              heightOffset="0"
                               iconSize="5.2" rotate="0" defaulttoggle="0" />
 
                          <MarkerCategory name="float" DisplayName="Arrow"
                               iconFile="assets/general/arrowg.png" alpha="0.75"
-                              heightoffset="5" iconSize="1" defaulttoggle="0" minimapvisibility="0"
+                              heightOffset="5" iconSize="1" defaulttoggle="0" miniMapVisibility="0"
                               color="#FF00FF" />
                     </MarkerCategory>
                </MarkerCategory>

@@ -1,37 +1,37 @@
 <OverlayData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
      xsi:noNamespaceSchemaLocation="../marker-schema.xsd">
      <MarkerCategory name="pve_markers" DisplayName="PvE Markers">
-          <MarkerCategory name="wing8" DisplayName="Wing 8" MapID="1564" fadeNear="5000"
+          <MarkerCategory name="wing8" DisplayName="Wing 8" MapId="1564" fadeNear="5000"
                fadeFar="5500">
                <MarkerCategory name="decima" DisplayName="Decima">
                     <MarkerCategory name="boss" DisplayName="Boss">
                          <MarkerCategory name="center" DisplayName="Center Position">
                               <MarkerCategory name="hb" DisplayName="Hitbox"
                                    iconFile="assets/radius/640.png" iconSize="9.375" color="#ee5252"
-                                   rotate="0" heightoffset="0" mapvisibility="0"
-                                   minimapvisibility="0" />
+                                   rotate="0" heightOffset="0" mapVisibility="0"
+                                   miniMapVisibility="0" />
                               <MarkerCategory name="skull" DisplayName="Indicator"
                                    iconFile="assets/skull/red.png" iconSize="0.75" alpha="0.6"
-                                   heightoffset="0.5" />
+                                   heightOffset="0.5" />
                          </MarkerCategory>
 
                          <MarkerCategory name="side" DisplayName="Side Position" defaulttoggle="0">
                               <MarkerCategory name="hb" DisplayName="Hitbox"
                                    iconFile="assets/radius/640.png"
-                                   iconSize="9.375" color="#52a0ee" rotate="0" heightoffset="0"
-                                   mapvisibility="0"
-                                   minimapvisibility="0" defaulttoggle="0" />
+                                   iconSize="9.375" color="#52a0ee" rotate="0" heightOffset="0"
+                                   mapVisibility="0"
+                                   miniMapVisibility="0" defaulttoggle="0" />
                               <MarkerCategory name="skull" DisplayName="Indicator"
                                    iconFile="assets/skull/blue.png"
-                                   iconSize="0.75" alpha="0.75" heightoffset="0" rotate="0" />
+                                   iconSize="0.75" alpha="0.75" heightOffset="0" rotate="0" />
                          </MarkerCategory>
                     </MarkerCategory>
 
                     <MarkerCategory name="boulder" DisplayName="Transcendent Boulder"
-                         mapvisibility="0">
+                         mapVisibility="0">
                          <MarkerCategory name="location" DisplayName="Location"
                               iconFile="assets/general/dot.png" iconSize="0.5" color="#ffffff"
-                              rotate="0" heightoffset="0" minimapvisibility="0" defaulttoggle="0">
+                              rotate="0" heightOffset="0" miniMapVisibility="0" defaulttoggle="0">
                               <!-- List -->
                               <MarkerCategory name="1" DisplayName="Split 1">
                                    <MarkerCategory name="g1" DisplayName="Ranged Group" />
@@ -46,7 +46,7 @@
 
                          <MarkerCategory name="hb" DisplayName="Hitbox"
                               iconFile="assets/radius/640.png" iconSize="4.75" rotate="0"
-                              heightoffset="0" minimapvisibility="0" defaulttoggle="0">
+                              heightOffset="0" miniMapVisibility="0" defaulttoggle="0">
                               <!-- List -->
                               <MarkerCategory name="1" DisplayName="Split 1">
                                    <MarkerCategory name="g1" DisplayName="Ranged Group" />
@@ -60,7 +60,7 @@
                          </MarkerCategory>
 
                          <MarkerCategory name="number" DisplayName="Number"
-                              iconSize="0.75" alpha="0.6" heightoffset="0.75">
+                              iconSize="0.75" alpha="0.6" heightOffset="0.75">
                               <!-- List -->
                               <MarkerCategory name="1" DisplayName="Split 1"
                                    iconFile="assets/numbers/1.png">
