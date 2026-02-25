@@ -373,8 +373,8 @@
         <!-- Imported -->
         <!-- Wave Trails -->
         <trail type="pve_markers.encounter.kela.wave.wavetrigger1"
-            trailData="trails/topmid.trl" />
+            trailData="trails/boss-encounter/kela/topmid.trl" />
         <trail type="pve_markers.encounter.kela.wave.wavetrigger2"
-            trailData="trails/botmid.trl" />
+            trailData="trails/boss-encounter/kela/botmid.trl" />
     </POIs>
 </OverlayData>
