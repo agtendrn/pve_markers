@@ -23,7 +23,7 @@
 
                 <!-- Waves -->
                 <MarkerCategory name="wave" DisplayName="Wave Boarders" fadeNear="4000"
-                    fadeFar="4100" alpha="0.45" animSpeed="0" trailScale="0.4" defaulttoggle="0">
+                    fadeFar="4100" alpha="0.45" animSpeed="0" trailScale="0.4" defaulttoggle="0" miniMapVisibility="0">
                     <MarkerCategory name="wavetrigger1" DisplayName="Wave Trigger Area 1"
                         texture="assets/lines/white-line.png"
                         tip-description="Crossing this line with Kelas hitbox will cause waves in the center and south-east to spawn. No north-west waves." />
