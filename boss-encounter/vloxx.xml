@@ -12,7 +12,7 @@
                             iconFile="assets/general/dot.png" iconSize="0.4" color="#ffffff"
                             rotate="0" heightOffset="0" miniMapVisibility="0" />
                         <MarkerCategory name="hb" DisplayName="Hitbox"
-                            iconFile="assets/radius/640.png" iconSize="1.5" rotate="0"
+                            iconFile="assets/radius/256.png" iconSize="1.5" rotate="0"
                             heightOffset="0" miniMapVisibility="0" />
                     </MarkerCategory>
                 </MarkerCategory>
@@ -25,7 +25,7 @@
                             iconFile="assets/general/dot.png" iconSize="0.4" color="#ffffff"
                             rotate="0" heightOffset="0" miniMapVisibility="0" />
                         <MarkerCategory name="hb" DisplayName="Hitbox"
-                            iconFile="assets/radius/640.png" iconSize="1.5" rotate="0"
+                            iconFile="assets/radius/256.png" iconSize="1.5" rotate="0"
                             heightOffset="0" miniMapVisibility="0" />
                     </MarkerCategory>
                 </MarkerCategory>
@@ -38,7 +38,7 @@
                             iconFile="assets/general/dot.png" iconSize="0.4" color="#ffffff"
                             rotate="0" heightOffset="0" miniMapVisibility="0" />
                         <MarkerCategory name="hb" DisplayName="Hitbox"
-                            iconFile="assets/radius/640.png" iconSize="1.5" rotate="0"
+                            iconFile="assets/radius/256.png" iconSize="1.5" rotate="0"
                             heightOffset="0" miniMapVisibility="0" />
                     </MarkerCategory>
                 </MarkerCategory>
