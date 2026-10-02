@@ -1,0 +1,71 @@
+<OverlayData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:noNamespaceSchemaLocation="../marker-schema.xsd">
+    <MarkerCategory name="pve_markers" DisplayName="PvE Markers">
+        <MarkerCategory name="encounter" DisplayName="Raid Encounter">
+            <MarkerCategory name="vloxx" DisplayName="Vloxx" MapId="1638"
+                fadeNear="3000" fadeFar="3500">
+                <!-- Spear -->
+                <MarkerCategory name="spear" DisplayName="Aspect of the Spear"
+                    mapVisibility="0">
+                    <MarkerCategory name="spawn" DisplayName="Spawn Location">
+                        <MarkerCategory name="location" DisplayName="Location"
+                            iconFile="assets/general/dot.png" iconSize="0.4" color="#ffffff"
+                            rotate="0" heightOffset="0" miniMapVisibility="0" />
+                        <MarkerCategory name="hb" DisplayName="Hitbox"
+                            iconFile="assets/radius/640.png" iconSize="1.5" rotate="0"
+                            heightOffset="0" miniMapVisibility="0" />
+                    </MarkerCategory>
+                </MarkerCategory>
+
+                <!-- Staff -->
+                <MarkerCategory name="staff" DisplayName="Aspect of the Staff"
+                    mapVisibility="0">
+                    <MarkerCategory name="spawn" DisplayName="Spawn Location">
+                        <MarkerCategory name="location" DisplayName="Location"
+                            iconFile="assets/general/dot.png" iconSize="0.4" color="#ffffff"
+                            rotate="0" heightOffset="0" miniMapVisibility="0" />
+                        <MarkerCategory name="hb" DisplayName="Hitbox"
+                            iconFile="assets/radius/640.png" iconSize="1.5" rotate="0"
+                            heightOffset="0" miniMapVisibility="0" />
+                    </MarkerCategory>
+                </MarkerCategory>
+
+                <!-- Sword -->
+                <MarkerCategory name="sword" DisplayName="Aspect of the Sword"
+                    mapVisibility="0">
+                    <MarkerCategory name="spawn" DisplayName="Spawn Location">
+                        <MarkerCategory name="location" DisplayName="Location"
+                            iconFile="assets/general/dot.png" iconSize="0.4" color="#ffffff"
+                            rotate="0" heightOffset="0" miniMapVisibility="0" />
+                        <MarkerCategory name="hb" DisplayName="Hitbox"
+                            iconFile="assets/radius/640.png" iconSize="1.5" rotate="0"
+                            heightOffset="0" miniMapVisibility="0" />
+                    </MarkerCategory>
+                </MarkerCategory>
+            </MarkerCategory>
+        </MarkerCategory>
+    </MarkerCategory>
+
+
+    <POIs>
+        <!-- Voxx -->
+        <!-- Spear -->
+        <POI type="pve_markers.encounter.vloxx.spear.spawn.location" GUID="+LhaKKoCaUK109fP1FWR6g=="
+            xpos="301.0001" ypos="314.8367" zpos="408.5462" />
+        <POI type="pve_markers.encounter.vloxx.spear.spawn.hb" GUID="gLabsmD0LUaL0YopIkgmIA=="
+            xpos="301.0001" ypos="314.8367" zpos="408.5462" />
+
+        <!-- Staff -->
+        <POI type="pve_markers.encounter.vloxx.staff.spawn.location" GUID="/1M213+W7UG1fF6P6do9ww=="
+            xpos="319.0798" ypos="314.8367" zpos="370.7612" />
+        <POI type="pve_markers.encounter.vloxx.staff.spawn.hb" GUID="cYUyNZ2VTEy5cwBWP8GIeQ=="
+            xpos="319.0798" ypos="314.8367" zpos="370.7612" />
+
+        <!-- Sword -->
+        <POI type="pve_markers.encounter.vloxx.sword.spawn.location" GUID="CSHe2y3pGEiAirw5EhPFmA=="
+            xpos="331.1194" ypos="314.8367" zpos="398.7571" />
+        <POI type="pve_markers.encounter.vloxx.sword.spawn.hb" GUID="W6qrg4s+1Eu/apfON2f/Tw=="
+            xpos="331.1194" ypos="314.8367" zpos="398.7571" />
+
+    </POIs>
+</OverlayData>
